@@ -16,7 +16,7 @@
 This is the official repo for the paper:  
 
 
-**[Incremental Learning for Robot Shared Autonomy](https://https://ilsa-robo.github.io/)**  
+**[Incremental Learning for Robot Shared Autonomy](https://ilsa-robo.github.io/)**  
 [Yiran Tao](https://yirantao1000.github.io/), [Guuixiu Qiao](https://https://ilsa-robo.github.io/), [Ding Dan](https://www.shrs.pitt.edu/people/dan-ding), [Zackory Erickson](https://zackory.com/)  
 in Submission
 
