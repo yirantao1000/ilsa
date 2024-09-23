@@ -34,6 +34,8 @@ ILSA is an Incrementally Learned Shared Autonomy framework that continually impr
 - [Pretrain the Action Generation Model](#pretrain-the-action-generation-model)  
 - [Run ILSA](#run-ilsa)  
   - [User uses ILSA](#user-uses-ilsa)
+  - [Generate Corrected Trajectory](#generate-corrected-trajectory)
+  - [Finetune ILSA](#finetune-ilsa)
 
 
 ## Setup
