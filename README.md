@@ -6,7 +6,7 @@
 
 
 <p align="left">
-    <a href=''>
+    <a href='https://arxiv.org/abs/2410.06315'>
       <img src='https://img.shields.io/badge/Paper-arXiv-green?style=plastic&logo=arXiv&logoColor=green' alt='Paper arXiv'>
     </a>
     <a href='https://ilsa-robo.github.io/'>
@@ -17,7 +17,7 @@ This is the official repo for the paper:
 
 
 **[Incremental Learning for Robot Shared Autonomy](https://ilsa-robo.github.io/)**  
-[Yiran Tao](https://yirantao1000.github.io/), [Guuixiu Qiao](https://https://ilsa-robo.github.io/), [Ding Dan](https://www.shrs.pitt.edu/people/dan-ding), [Zackory Erickson](https://zackory.com/)  
+[Yiran Tao](https://yirantao1000.github.io/), [Guixiu Qiao](https://https://ilsa-robo.github.io/), [Ding Dan](https://www.shrs.pitt.edu/people/dan-ding), [Zackory Erickson](https://zackory.com/)  
 in Submission
 
 ILSA is an Incrementally Learned Shared Autonomy framework that continually improves its assistive control policy through repeated user interactions. ILSA leverages synthetic kinematic trajectories for initial pretraining, reducing the need for expert demonstrations, and then incrementally finetunes its policy after each manipulation interaction, with mechanisms to balance new knowledge acquisition with existing knowledge retention during incremental learning.
@@ -36,7 +36,7 @@ ILSA is an Incrementally Learned Shared Autonomy framework that continually impr
   - [User uses ILSA](#user-uses-ilsa)
   - [Generate Corrected Trajectory](#generate-corrected-trajectory)
   - [Finetune ILSA](#finetune-ilsa)
-
+- [Citation](#citation)
 
 ## Setup
 <!-- ### ILSA -->
@@ -120,15 +120,18 @@ After finetuning, modify ```previous_ckpt_path``` in ```incre_pill.json``` or ``
 - Part of the codes is based on [Robomimic](https://robomimic.github.io/)
 - Object localization of the code is based on [SAM with text prompt](https://github.com/luca-medeiros/lang-segment-anything) implemented by [Luca Medeiros](https://github.com/luca-medeiros). 
 
-<!-- ## Citation
+## Citation
 If you find this codebase/paper useful for your research, please consider citing:
 ```
-@article{wang2023robogen,
-  title={Robogen: Towards unleashing infinite data for automated robot learning via generative simulation},
-  author={Wang, Yufei and Xian, Zhou and Chen, Feng and Wang, Tsun-Hsuan and Wang, Yian and Fragkiadaki, Katerina and Erickson, Zackory and Held, David and Gan, Chuang},
-  journal={arXiv preprint arXiv:2311.01455},
-  year={2023}
+@misc{tao2024incrementallearningrobotshared,
+      title={Incremental Learning for Robot Shared Autonomy}, 
+      author={Yiran Tao and Guixiu Qiao and Dan Ding and Zackory Erickson},
+      year={2024},
+      eprint={2410.06315},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2410.06315}, 
 }
-``` -->
+```
 
 
